@@ -1,0 +1,129 @@
+.top__people--finder {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+
+    .centered__fields {
+        display: flex;
+        align-items: center;
+
+        .top__people--find {
+            padding: 0px 21px;
+        }
+    }
+
+    h2 {
+        font-size: 20px;
+        color: #fff;
+        margin: 20px 0;
+
+        span {
+            font-weight: 500;
+        }
+    }
+}
+header {
+    margin: 0 !important;
+}
+.description--one {
+    margin-right: 200px !important;
+}
+.top__people {
+    background: rgb(66, 66, 66);
+    padding-top: 20px;
+}
+
+.top__people--find {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user__carts {
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+
+    &__ava {
+        img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+    }
+}
+
+.user__cart {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-bottom: 30px;
+    position: relative;
+
+    h4 {
+        position: absolute;
+        color: #fff;
+        top: 350px;
+    }
+
+    &--border {
+        border-radius: 10px;
+        border: 3px solid rgb(94, 82, 255);
+        background: #fff;
+        padding: 20px;
+        width: 850px;
+
+        .user__cart__description {
+            max-width: 800px;
+            line-height: 25px;
+            margin-bottom: 15px;
+        }
+
+        .user__cart__rating,
+        .user__cart__dat {
+            font-weight: 500;
+            font-size: 18px;
+        }
+
+        .user__cart__dat {
+            margin-bottom: 10px;
+        }
+
+        .user__cart__rating {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+
+            img {
+                width: 30px;
+                height: 30px;
+                margin-left: 10px;
+            }
+        }
+
+        h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+    }
+
+    &__ava {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        overflow: hidden;
+        margin-right: 20px;
+        position: relative;
+        border: 5px solid rgb(255, 110, 110);
+        cursor: pointer;
+
+        img {
+            position: absolute;
+            top: 50%;
+            left: 70%;
+            transform: translate(-50%, -50%) scale(0.5);
+        }
+    }
+}
